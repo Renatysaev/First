@@ -1,0 +1,25 @@
+.features{
+  &__video{}
+  &__content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    &-title{
+      @include font(50px, 57px, bold);
+      letter-spacing: -1.56316px;
+      color: #19191B;
+    }
+    &-text{
+      @include font2(20px, 30px, normal);
+      letter-spacing: -0.625263px;
+      color: #696871;
+    }
+    &-link{
+      @include font(17px, 22px, bold);
+      letter-spacing: -0.531474px;
+      color: #5454D4;
+    }
+  }
+}

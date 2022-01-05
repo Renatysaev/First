@@ -1,0 +1,30 @@
+.home{
+  &__content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    &-title{
+      @include font(80px, 77px, bold);
+      letter-spacing: -2.50105px;
+      color: #19191B;
+    }
+    &-text{
+      @include font2(20px, 30px, normal);
+      letter-spacing: -0.625263px;
+      color: #696871;
+    }
+    &-btn{
+      @include font(17px, 22px, bold);
+      text-align: center;
+      letter-spacing: -0.531474px;
+      color: #FFFFFF;
+      background: #5454D4;
+      border-radius: 10px;
+      height: 60px;
+      width: 211px;
+
+    }
+  }
+}

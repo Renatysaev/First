@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 100px;
+
+  &__menu {
+    display: flex;
+    column-gap: 20px;
+
+    &-link {
+      @include font(14px, 17px, normal);
+      text-transform: uppercase;
+      color: black;
+    }
+  }
+  &__form{
+    &-button{
+      @include font(17px, 22px, bold);
+      text-align: center;
+      letter-spacing: -0.531474px;
+      color: #FFFFFF;
+      width: 211px;
+      height: 60px;
+      background: #FF7143;
+      border-radius: 10px;
+    }
+  }
+}

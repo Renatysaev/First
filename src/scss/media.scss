@@ -1,0 +1,165 @@
+@media screen and(max-width: 1140px) {
+
+
+  .container{
+    max-width: 992px;
+  }
+  .overview{
+    column-gap: 85px;
+  }
+  .home__video{
+    img{
+      width: 470px;
+    }
+  }
+
+
+}
+
+@media screen and(max-width: 992px) {
+  .mobile-btn{
+    display: flex;
+    cursor: pointer;
+    width: 55px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+  }
+  .show-mobile-btn span{
+    background: transparent;
+  }
+  .show-mobile-btn span::before,
+  .show-mobile-btn span::after{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .show-mobile-btn span::before{
+    transform: rotate(45deg);
+  }
+  .show-mobile-btn span::after{
+    transform: rotate(-45deg)
+  }
+  .header__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(255, 113, 67, 0.75);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -100%;
+    transition: .7s;
+  }
+  .show-menu{
+    right: 0;
+  }
+  .show-link{
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    width: 170px;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+
+
+
+  .container{
+    max-width: 720px;
+  }
+  .overview{
+    column-gap: 50px;
+img{
+  width: 85px;
+
+}
+  }
+  .home__content-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+    .home__video {
+      img {
+        width: 400px;
+      }
+  }
+  .col-4{
+    width: 100%;
+
+  }
+  .product__box{
+    width: 460px;
+    margin: 30px auto;
+  }
+  .header__form-button{
+    width: 150px;
+    height: 45px;
+
+  }
+  .pricing__video{
+    img{
+      width: 240px;
+    }
+  }
+  .product__title{
+    font-size: 45px;
+  }
+}
+
+@media screen and(max-width: 720px) {
+  .container{
+    max-width: 540px;
+  }
+   .col-6{
+     width: 100%;
+   }
+  .overview{
+    column-gap: 25px;
+    img{
+      width: 70px;
+
+    }
+  }
+}
+@media screen and(max-width: 540px){
+  .container{
+    max-width: 315px;
+  }
+  .header__logo-img{
+    width: 100px
+  }
+  .header__form-button{
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .home__video img{
+    width: 300px;
+  }
+  .overview{
+    column-gap: 7px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+  }
+  .features__video{
+    img{
+      width: 280px;
+    }
+  }
+  .pricing__video{
+    margin-left: 0;
+  }
+  .product__box{
+    width: 280px;
+  }
+  .product__box-btn{
+    width: 200px;
+    height: 40px;
+  }
+
+}
+

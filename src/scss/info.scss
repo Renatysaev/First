@@ -1,0 +1,22 @@
+.info{
+  margin-top: 100px;
+  &__content{
+    &-img{
+      text-align: center;
+      height: 100px;
+      width: 64px;
+      margin: 0 auto;
+    }
+    &-title{
+      @include font(24px, 36px, bold);
+      text-align: center;
+      letter-spacing: -0.750316px;
+    }
+    &-text{
+      @include font2(16px, 24px, normal);
+      text-align: center;
+      letter-spacing: -0.500211px;
+      color: #696871;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6{
+  width: 50%;
+  padding: 0 15px;
+}
+.col-4{
+  width: 33.3%;
+  padding: 0 15px;
+}
+
+@mixin font($fs, $lh, $fw){
+  font-family: "DM Sans", sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+}
+@mixin font2($fs, $lh, $fw){
+  font-family: Mulish, sans-serif;
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+}
+
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.header__menu-link{
+  margin-left: 20px;
+}
+
+.mobile-btn{
+
+  display: none;
+}
+
+.mobile-btn span{
+  height: 3px;
+  width: 100%;
+  background-color: orange;
+  position: relative;
+}
+
+.mobile-btn span::before,
+.mobile-btn span::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  position: absolute;
+}
+.mobile-btn span::before{
+  top: -10px;
+}
+.mobile-btn span::after{
+  top: 10px;
+
+}
+
+
+
+@import "header";
+@import "home";
+@import "overview";
+@import "features";
+@import "pricing";
+@import "blog";
+@import "info";
+@import "product";
+@import "media";

@@ -1,0 +1,15 @@
+@media screen and (max-width: 1140px) {
+  .container {
+    max-width: 992px;
+  }
+
+  .overview {
+    -webkit-column-gap: 85px;
+       -moz-column-gap: 85px;
+            column-gap: 85px;
+  }
+
+  .home__video img {
+    width: 470px;
+  }
+}
